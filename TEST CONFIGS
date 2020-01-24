@@ -1,0 +1,2 @@
+**** CAMBIAR ESTO ANTES DEL LIVE SERVER ****
+server.properties ->  HTM Cache Configuration -> HtmCacheMode setear en opcion "2".
