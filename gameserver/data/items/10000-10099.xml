@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+  <armor id="10019" name="First Mate Hat">
+    <set name="tradeable" value="false"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_santas_cap_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="HAIR"/>
+    </equip>
+  </armor>
+  <armor id="10020" name="Special Feathered Hat">
+    <set name="tradeable" value="false"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_santas_cap_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="HAIR"/>
+    </equip>
+  </armor>
+  <armor id="10021" name="Special Jester Hat">
+    <set name="tradeable" value="false"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_santas_cap_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="HAIR"/>
+    </equip>
+  </armor>
+  <armor id="10022" name="Special Wizzard Hat">
+    <set name="tradeable" value="false"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_santas_cap_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="HAIR"/>
+    </equip>
+  </armor>
+  <armor id="10023" name="Special Dapper Cap">
+    <set name="tradeable" value="false"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_santas_cap_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="HAIR"/>
+    </equip>
+  </armor>
+  <armor id="10024" name="Alien Mask">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_full_mask_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="FACE"/>
+    </equip>
+  </armor>
+  <armor id="10025" name="Doccabi Mask">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_full_mask_i01"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="FACE"/>
+    </equip>
+  </armor>
+  <armor id="10026" name="Frank Mask">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_full_mask_i01"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="FACE"/>
+    </equip>
+  </armor>
+  <armor id="10027" name="Abobora Mask">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_full_mask_i01"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="FACE"/>
+    </equip>
+  </armor>
+  <armor id="10028" name="Mumia Mask">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_full_mask_i01"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="FACE"/>
+    </equip>
+  </armor>
+  <armor id="10029" name="Panic Mask">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_full_mask_i01"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="FACE"/>
+    </equip>
+  </armor>
+  <armor id="10130" name="Red Hat">
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.accessory_rabbit_ear_i00"/>
+    <set name="sellable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="HAIR"/>
+    </equip>
+  </armor>
+</list>

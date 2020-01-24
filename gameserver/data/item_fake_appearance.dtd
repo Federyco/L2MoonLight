@@ -1,0 +1,14 @@
+<!ELEMENT list (item)+>
+<!ATTLIST list
+        xmlns CDATA #FIXED ''
+        enabled NMTOKEN #REQUIRED>
+
+<!ELEMENT item (display)+>
+<!ATTLIST item
+        xmlns CDATA #FIXED ''
+        itemId CDATA #REQUIRED>
+
+<!ELEMENT display EMPTY>
+<!ATTLIST display
+        xmlns CDATA #FIXED ''
+        itemId CDATA #REQUIRED>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "item_fake_appearance.dtd">
+<list enabled="false">
+    <item itemId="485">
+        <display itemId="6408"/>
+    </item>
+    <item itemId="486">
+        <display itemId="6408"/>
+        <display itemId="6408"/>
+        <display itemId="6408"/>
+        <display itemId="6408"/>
+        <display itemId="6408"/>
+    </item>
+</list>

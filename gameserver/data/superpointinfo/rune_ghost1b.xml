@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "superpointinfo.dtd">
+<list>
+	<moveroute name="rune_ghost1b" type="ONCE" is_running="false">
+		<node x="51752" y="-54736" z="-3160" />
+		<node x="51998" y="-54685" z="-3160" />
+		<node x="52083" y="-54439" z="-3152" />
+		<node x="52296" y="-53194" z="-3152" />
+		<node x="51891" y="-51628" z="-3096" delay="15000"/>
+	</moveroute>
+</list>

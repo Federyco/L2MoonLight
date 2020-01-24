@@ -1,0 +1,1 @@
+UPDATE clan_data SET clan_data.warehouse = 0 WHERE clan_data.warehouse = -1;

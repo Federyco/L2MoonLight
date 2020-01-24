@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+<!-- ********************* INICIO OCEAN MACE ************************** -->
+  <weapon id="9400" name="Ocean Mace">
+    <!-- [arcana_mace] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_arcana_mace_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="225"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9401" name="Ocean Mace" add_name="Acumen">
+    <!-- [arcana_mace_acumen] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_arcana_mace_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3047" level="2"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="225"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9402" name="Ocean Mace" add_name="MP Regeneration">
+    <!-- [arcana_mace_mpregen] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_arcana_mace_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3576" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="225"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9403" name="Ocean Mace" add_name="Mana Up">
+    <!-- [arcana_mace_manaup] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_arcana_mace_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3014" level="2"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="225"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN MACE ************************** -->
+   <!-- ********************* INICIO OCEAN SPEAR  ************************** -->
+  <weapon id="9404" name="Ocean Spear">
+    <!-- [saint_spear] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_saint_spear_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="POLE"/>
+    <set name="weight" value="1800"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3599" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+   <weapon id="9405" name="Ocean Spear" add_name="Guidance">
+    <!-- [saint_spear_guidance] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_saint_spear_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="POLE"/>
+    <set name="weight" value="1800"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3602" level="9"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9406" name="Ocean Spear" add_name="Haste">
+    <!-- [saint_spear_haste] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_saint_spear_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="POLE"/>
+    <set name="weight" value="1800"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3601" level="9"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!--EL ID DE ESTE ITEM ESTA AL FONDO NI EN PEDO CAMBIO TODOS LOS ID-->
+  <!-- ********************* FIN OCEAN SPEAR  ************************** -->
+  <!-- ********************* INICIO OCEAN FIGHTERS  ************************** -->
+   <weapon id="9407" name="Ocean Fighter">
+    <!-- [demon_splinter] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_demon_splinter_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DUALFIST"/>
+    <set name="weight" value="1350"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9408" name="Ocean Fighter" add_name="Focus">
+    <!-- [demon_splinter_focus] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_demon_splinter_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DUALFIST"/>
+    <set name="weight" value="1350"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3565" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9409" name="Ocean Fighter" add_name="Health">
+    <!-- [demon_splinter_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_demon_splinter_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DUALFIST"/>
+    <set name="weight" value="1350"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="3"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9410" name="Ocean Fighter" add_name="Critical Stun">
+    <!-- [demon_splinter_crt.stun] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_demon_splinter_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DUALFIST"/>
+    <set name="weight" value="1350"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <triggers>
+      <trigger id="3070" level="3" type="CRIT" chance="100"/>
+    </triggers>
+    <skills>
+      <skill id="3552" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN FIGHTERS  ************************** -->
+  <!-- ********************* INICIO OCEAN SLASHER  ************************** -->
+  <weapon id="9411" name="Ocean Slasher">
+    <!-- [heavens_divider] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_heavens_divider_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGSWORD"/>
+    <set name="weight" value="1380"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9412" name="Ocean Slasher" add_name="Haste">
+    <!-- [heavens_divider_haste] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_heavens_divider_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGSWORD"/>
+    <set name="weight" value="1380"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3564" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9413" name="Ocean Slasher" add_name="Health">
+    <!-- [heavens_divider_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_heavens_divider_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGSWORD"/>
+    <set name="weight" value="1380"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="3"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9414" name="Ocean Slasher" add_name="Focus">
+    <!-- [heavens_divider_focus] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_heavens_divider_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGSWORD"/>
+    <set name="weight" value="1380"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3566" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN SLASHER  ************************** -->
+  <!-- ********************* INICIO OCEAN DUAL SWORDS  ************************** -->
+
+  <weapon id="9415" name="Ocean Dual Swords">
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_dual_sword_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DUAL"/>
+    <set name="weight" value="2080"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3552" level="1"/>
+    </skills>
+    <enchant4_skill id="3570" level="1"/>
+    <!--Special Ability: Robust Health-->
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN DUAL SWORDS  ************************** -->
+  <!-- ********************* INICIO OCEAN SWORD  ************************** -->
+   <weapon id="9416" name="Ocean Sword">
+    <!-- [forgotten_blade] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_forgotten_blade_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="SWORD"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+
+  <weapon id="9417" name="Ocean Sword" add_name="Haste">
+    <!-- [forgotten_blade_haste] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_forgotten_blade_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="SWORD"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3564" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9418" name="Ocean Sword" add_name="Health">
+    <!-- [forgotten_blade_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_forgotten_blade_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="SWORD"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="3"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9419" name="Ocean Sword" add_name="Focus">
+    <!-- [forgotten_blade_focus] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_forgotten_blade_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="SWORD"/>
+    <set name="weight" value="1300"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3566" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN SWORD  ************************** -->
+  <!-- ********************* INICIO OCEAN AVENGER  ************************** -->
+  <weapon id="9420" name="Ocean Avenger">
+    <!-- [basalt_battlehammer] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9421" name="Ocean Avenger" add_name="HP Drain">
+    <!-- [basalt_battlehammer_hpdrain] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3568" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9422" name="Ocean Avenger" add_name="Health">
+    <!-- [basalt_battlehammer_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="3"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9423" name="Ocean Avenger" add_name="HP Regeneration">
+    <!-- [basalt_battlehammer_hpregen] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3569" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN AVENGER  ************************** -->
+  <!-- ********************* INICIO OCEAN CANE  ************************** -->
+   <weapon id="9424" name="Ocean Cane">
+    <!-- [imperial_staff] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_imperial_staff_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="910"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="274"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9425" name="Ocean Cane" add_name="Empower">
+    <!-- [imperial_staff_magicpower] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_imperial_staff_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="910"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3575" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="274"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9426" name="Ocean Cane" add_name="MP Regeneration">
+    <!-- [imperial_staff_mpregen] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_imperial_staff_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="910"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3576" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="274"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9427" name="Ocean Cane" add_name="Magic Hold">
+    <!-- [imperial_staff_magichold] -->
+    <set name="is_magic_weapon" value="true"/>
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_imperial_staff_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="910"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <triggers>
+      <trigger id="3577" level="1" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="20"/>
+    </triggers>
+    <skills>
+      <skill id="3552" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="274"/>
+      <add stat="mAtk" order="0x10" value="175"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN CANE  ************************** -->
+  <!-- ********************* INICIO OCEAN SHAPER  ************************** -->
+  <weapon id="9428" name="Ocean Shaper">
+    <!-- [angel_slayer] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_angel_slayer_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DAGGER"/>
+    <set name="weight" value="950"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="246"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="433"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9429" name="Ocean Shaper" add_name="Critical Damage">
+    <!-- [angel_slayer_crt.damage] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_angel_slayer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DAGGER"/>
+    <set name="weight" value="950"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3572" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="246"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="433"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9430" name="Ocean Shaper" add_name="HP Drain">
+    <!-- [angel_slayer_hpdrain] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_angel_slayer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DAGGER"/>
+    <set name="weight" value="950"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3568" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="246"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="433"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9431" name="Ocean Shaper" add_name="Haste">
+    <!-- [angel_slayer_haste] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_angel_slayer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DAGGER"/>
+    <set name="weight" value="950"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3564" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="246"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="433"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN SHAPER  ************************** -->
+  <!-- ********************* INICIO OCEAN BOW  ************************** -->
+  <weapon id="9432" name="Ocean Bow">
+    <!-- [shining_bow] -->
+    <set name="atk_reuse" value="820"/>
+    <set name="crystal_count" value="1765"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_shining_bow_i00"/>
+    <set name="mp_consume" value="6"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BOW"/>
+    <set name="weight" value="1650"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="581"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="293"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9433" name="Ocean Bow" add_name="Cheap Shot">
+    <!-- [shining_bow_cheapshot] -->
+    <set name="atk_reuse" value="820"/>
+    <set name="crystal_count" value="1765"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_shining_bow_i01"/>
+    <set name="mp_consume" value="11"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BOW"/>
+    <set name="weight" value="1650"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3552" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="581"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="293"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+      <set stat="cheapShot" order="0x08" value="2"/>
+      <set stat="cheapShotChance" order="0x08" value="26"/>
+    </for>
+  </weapon>
+  <weapon id="9434" name="Ocean Bow" add_name="Focus">
+    <!-- [shining_bow_focus] -->
+    <set name="atk_reuse" value="820"/>
+    <set name="crystal_count" value="1765"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_shining_bow_i01"/>
+    <set name="mp_consume" value="6"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BOW"/>
+    <set name="weight" value="1650"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3567" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="581"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="293"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9435" name="Ocean Bow" add_name="Critical Slow">
+    <!-- [shining_bow_crt.slow] -->
+    <set name="atk_reuse" value="820"/>
+    <set name="crystal_count" value="1765"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_shining_bow_i01"/>
+    <set name="mp_consume" value="6"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="5"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BOW"/>
+    <set name="weight" value="1650"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <triggers>
+      <trigger id="3574" level="1" type="CRIT" chance="100"/>
+    </triggers>
+    <for>
+      <add stat="pAtk" order="0x10" value="581"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="120"/>
+      <set stat="atkBaseSpeed" order="0x08" value="293"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN BOW  ************************** -->
+  <!-- ********************* INICIO OCEAN CRUSHER  ************************** -->
+  <weapon id="9436" name="Ocean Crusher">
+    <!-- [dragon_hunter_axe] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_dragon_hunter_axe_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="1820"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9437" name="Ocean Crusher" add_name="HP Regeneration">
+    <!-- [dragon_hunter_axe_hpregen] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_dragon_hunter_axe_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="1820"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3569" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9438" name="Ocean Crusher" add_name="Health">
+    <!-- [dragon_hunter_axe_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_dragon_hunter_axe_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="1820"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="3"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9439" name="Ocean Crusher" add_name="HP Drain">
+    <!-- [dragon_hunter_axe_hpdrain] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_dragon_hunter_axe_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BIGBLUNT"/>
+    <set name="weight" value="1820"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3568" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* FIN OCEAN CRUSHER  ************************** -->
+  <!-- ********************* POLE FALTANTE ************************** -->
+  <weapon id="9440" name="Ocean Spear" add_name="Health">
+    <!-- [saint_spear_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_saint_spear_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="POLE"/>
+    <set name="weight" value="1800"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="4"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <add stat="accCombat" order="0x10" value="-4.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <!-- ********************* POLE FALTANTE  ************************** -->
+  <!-- ********************* MEPHISTO AVENGER  ************************** -->
+  <weapon id="9441" name="Mephisto Avenger">
+    <!-- [basalt_battlehammer] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9442" name="Mephisto Avenger" add_name="HP Drain">
+    <!-- [basalt_battlehammer_hpdrain] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3568" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9443" name="Mephisto Avenger" add_name="Health">
+    <!-- [basalt_battlehammer_health] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3013" level="3"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+  <weapon id="9444" name="Mephisto Avenger" add_name="HP Regeneration">
+    <!-- [basalt_battlehammer_hpregen] -->
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_basalt_battlehammer_i01"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="20"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="BLUNT"/>
+    <set name="weight" value="1570"/>
+    <equip>
+      <slot id="RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3569" level="1"/>
+    </skills>
+    <for>
+      <add stat="pAtk" order="0x10" value="281"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="40"/>
+      <set stat="atkBaseSpeed" order="0x08" value="379"/>
+      <add stat="accCombat" order="0x10" value="5.0000"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon>
+<!-- ****************************** FIN MEPHISTO AVENGER *********************************** -->
+  <!-- ****************************** INICIO MEPHISTO DUAL BLUNTS *********************************** -->
+ <weapon id="9445" name="Mephisto Dual Blunts">
+    <set name="crystal_count" value="2440"/>
+    <set name="crystal_type" value="S"/>
+    <set name="crystallizable" value="true"/>
+    <set name="icon" value="icon.weapon_dual_sword_i00"/>
+    <set name="price" value="48800000"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="type" value="DUAL"/>
+    <set name="weight" value="2080"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+      <skill id="3552" level="1"/>
+    </skills>
+    <enchant4_skill id="3570" level="1"/>
+    <!--Special Ability: Robust Health-->
+    <for>
+      <add stat="pAtk" order="0x10" value="342"/>
+      <add stat="mAtk" order="0x10" value="132"/>
+      <set stat="baseCrit" order="0x08" value="80"/>
+      <set stat="atkBaseSpeed" order="0x08" value="325"/>
+      <enchant stat="pAtk" order="0x0C" value="0"/>
+      <enchant stat="mAtk" order="0x0C" value="0"/>
+    </for>
+  </weapon> 
+  <!-- ****************************** FIN MEPHISTO DUAL BLUNTS *********************************** -->
+  <weapon id="9446" name="AIO Duals">
+    <set name="enchantable" value="false"/>
+    <set name="destroyable" value="false"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.weapon_dual_sword_i00"/>
+    <set name="rnd_dam" value="0"/>
+    <set name="sellable" value="false"/>
+    <set name="durability" value="1440"/>
+    <set name="temporal" value="true"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="tradeable" value="false"/>
+    <set name="type" value="DUAL"/>
+    <set name="weight" value="0"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+    <!--aio skills-->
+    <skill id="264" level="1"/>
+    <skill id="265" level="1"/>
+    <skill id="266" level="1"/>
+    <skill id="267" level="1"/>
+    <skill id="268" level="1"/>
+    <skill id="269" level="1"/>
+    <skill id="270" level="1"/>
+    <skill id="271" level="1"/>
+    <skill id="272" level="1"/>
+    <skill id="273" level="1"/>
+    <skill id="274" level="1"/>
+    <skill id="275" level="1"/>
+    <skill id="276" level="1"/>
+    <skill id="277" level="1"/>
+    <skill id="304" level="1"/>
+    <skill id="305" level="1"/>
+    <skill id="306" level="1"/>
+    <skill id="307" level="1"/>
+    <skill id="308" level="1"/>
+    <skill id="309" level="1"/>
+    <skill id="310" level="1"/>
+    <skill id="311" level="1"/>
+    <skill id="349" level="1"/>
+    <skill id="363" level="1"/>
+    <skill id="364" level="1"/>
+    <skill id="365" level="1"/>
+    <skill id="366" level="1"/>
+    <skill id="367" level="1"/>
+    <skill id="1002" level="3"/>
+    <skill id="1006" level="3"/>
+    <skill id="1007" level="3"/>
+    <skill id="1009" level="3"/>
+    <skill id="1010" level="3"/>
+    <skill id="1018" level="3"/>
+    <skill id="1033" level="3"/>
+    <skill id="1035" level="4"/>
+    <skill id="1036" level="2"/>
+    <skill id="1040" level="3"/>
+    <skill id="1043" level="1"/>
+    <skill id="1044" level="3"/>
+    <skill id="1045" level="6"/>
+    <skill id="1048" level="6"/>
+    <skill id="1059" level="3"/>
+    <skill id="1062" level="2"/>
+    <skill id="1068" level="3"/>
+    <skill id="1073" level="2"/>
+    <skill id="1077" level="3"/>
+    <skill id="1078" level="6"/>
+    <skill id="1085" level="3"/>
+    <skill id="1086" level="2"/>
+    <skill id="1087" level="3"/>
+    <skill id="1182" level="3"/>
+    <skill id="1189" level="3"/>
+    <skill id="1191" level="3"/>
+    <skill id="1204" level="2"/>
+    <skill id="1229" level="11"/>
+    <skill id="1240" level="3"/>
+    <skill id="1242" level="3"/>
+    <skill id="1243" level="6"/>
+    <skill id="1251" level="2"/>
+    <skill id="1252" level="3"/>
+    <skill id="1253" level="3"/>
+    <skill id="1255" level="2"/>
+    <skill id="1259" level="4"/>
+    <skill id="1268" level="4"/>
+    <skill id="1284" level="3"/>
+    <skill id="1303" level="2"/>
+    <skill id="1304" level="3"/>
+    <skill id="1308" level="3"/>
+    <skill id="1309" level="3"/>
+    <skill id="1310" level="4"/>
+    <skill id="1352" level="1"/>
+    <skill id="1353" level="1"/>
+    <skill id="1354" level="1"/>
+    <skill id="1355" level="1"/>
+    <skill id="1356" level="1"/>
+    <skill id="1357" level="1"/>
+    <skill id="1362" level="1"/>
+    <skill id="1363" level="1"/>
+    <skill id="1388" level="3"/>
+    <skill id="1389" level="3"/>
+    <skill id="1390" level="3"/>
+    <skill id="1391" level="3"/>
+    <skill id="1392" level="3"/>
+    <skill id="1393" level="3"/>
+    <skill id="1397" level="3"/>
+    <skill id="1413" level="1"/>
+    <skill id="1418" level="1"/>
+    <skill id="1461" level="1"/>
+    <!--buff de summon gatito -->
+    <skill id="4699" level="13"/>
+    <skill id="4700" level="13"/>
+    <!--buff de summon unicornio -->
+    <skill id="4702" level="13"/>
+    <skill id="4703" level="13"/>
+    <!--RECHARGE-->
+    <skill id="9260" level="1"/>
+    <!--CAPTURE STATE-->
+    <skill id="5098" level="2"/>
+    <!--MANA BOOST AIO-->
+    <skill id="9259" level="1"/>
+    <!--casteo aio-->
+    <skill id="9262" level="1"/>
+    </skills>
+  </weapon>
+  <!--Baium trucho-->
+  <armor id="9447" name="Ring of Loyalty">
+    <set name="crystallizable" value="false"/>
+    <set name="icon" value="icon.accessory_ring_of_baium_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="durability" value="10080"/>
+    <set name="temporal" value="true"/>
+    <set name="tradeable" value="false"/>
+    <set name="destroyable" value="false"/>
+    <set name="enchantable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="3561" level="1"/>
+      <skill id="9261" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="48"/>
+      <add stat="maxMp" order="0x40" value="21"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <etcitem id="9448" name="Event Coin">
+    <set name="destroyable" value="false"/>
+    <set name="class" value="OTHER"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_coin_of_fair_i00"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="dropable" value="false"/>
+    <set name="type" value="MONEY"/>
+  </etcitem>
+</list>

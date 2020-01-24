@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+
+<list>
+  <armor id="23881" name="Anakim Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26101" name="Draconic Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26102" name="Dark Killer Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26103" name="Light Assasin Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26104" name="Dark Assasin Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26105" name="Beleth Assasin Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26111" name="Draconic Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26112" name="Dark Killer Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26113" name="Light Assasin Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26114" name="Dark Assasin Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <armor id="26115" name="Beleth Assasin Costume">
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.armor_t2000_ul_i00"/>
+    <set name="price" value="5000000"/>
+    <set name="type" value="NONE"/>
+    <set name="weight" value="1000"/>
+    <equip>
+      <slot id="FORMAL_WEAR"/>
+    </equip>
+  </armor>
+  <etcitem id="26217" name="3rd class certificate">
+    <set name="class" value="MISC"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_codex_of_giant_i00"/>
+    <set name="price" value="500000"/>
+    <set name="stackable" value="false"/>
+    <set name="type" value="OTHER"/>
+    <set name="weight" value="10"/>
+    <set name="destroyable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="tradeable" value="false"/>
+  </etcitem>
+  <etcitem id="26218" name="Golden VIP Pass">
+    <set name="class" value="MISC"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_codex_of_giant_i00"/>
+    <set name="price" value="500000"/>
+    <set name="stackable" value="false"/>
+    <set name="type" value="OTHER"/>
+    <set name="weight" value="10"/>
+    <set name="destroyable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="tradeable" value="false"/>
+  </etcitem>
+  <etcitem id="26219" name="Vote Reward Rune">
+    <set name="class" value="MISC"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_codex_of_giant_i00"/>
+    <set name="price" value="50000000"/>
+    <set name="stackable" value="false"/>
+    <set name="type" value="RUNE"/>
+    <set name="weight" value="10"/>
+    <set name="temporal" value="true"/>
+    <set name="durability" value="720"/>
+    <set name="destroyable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="tradeable" value="true"/>
+    <skills>
+        <skill id="9200" level="1"/>
+    </skills>
+  </etcitem>
+  <weapon id="26220" name="AIO Duals">
+    <set name="enchantable" value="false"/>
+    <set name="crystal_type" value="A"/>
+    <set name="dropable" value="false"/>
+    <set name="icon" value="icon.time_weapon_dual_sword_i00"/>
+    <set name="rnd_dam" value="10"/>
+    <set name="sellable" value="false"/>
+    <set name="soulshots" value="1"/>
+    <set name="spiritshots" value="1"/>
+    <set name="tradeable" value="false"/>
+    <set name="type" value="DUAL"/>
+    <set name="weight" value="2080"/>
+    <equip>
+      <slot id="LEFT_RIGHT_HAND"/>
+    </equip>
+    <skills>
+<!--aio skills-->
+<skill id="123" level="3"/>
+<skill id="264" level="1"/>
+<skill id="265" level="1"/>
+<skill id="266" level="1"/>
+<skill id="267" level="1"/>
+<skill id="268" level="1"/>
+<skill id="269" level="1"/>
+<skill id="270" level="1"/>
+<skill id="271" level="1"/>
+<skill id="272" level="1"/>
+<skill id="273" level="1"/>
+<skill id="274" level="1"/>
+<skill id="275" level="1"/>
+<skill id="276" level="1"/>
+<skill id="277" level="1"/>
+<skill id="304" level="1"/>
+<skill id="305" level="1"/>
+<skill id="306" level="1"/>
+<skill id="307" level="1"/>
+<skill id="308" level="1"/>
+<skill id="309" level="1"/>
+<skill id="310" level="1"/>
+<skill id="311" level="1"/>
+<skill id="349" level="1"/>
+<skill id="363" level="1"/>
+<skill id="364" level="1"/>
+<skill id="365" level="1"/>
+<skill id="366" level="1"/>
+<skill id="367" level="1"/>
+<skill id="1002" level="3"/>
+<skill id="1006" level="3"/>
+<skill id="1007" level="3"/>
+<skill id="1009" level="3"/>
+<skill id="1010" level="3"/>
+<skill id="1018" level="3"/>
+<skill id="1033" level="3"/>
+<skill id="1035" level="4"/>
+<skill id="1036" level="2"/>
+<skill id="1040" level="3"/>
+<skill id="1043" level="1"/>
+<skill id="1044" level="3"/>
+<skill id="1045" level="6"/>
+<skill id="1048" level="6"/>
+<skill id="1059" level="3"/>
+<skill id="1062" level="2"/>
+<skill id="1068" level="3"/>
+<skill id="1073" level="2"/>
+<skill id="1077" level="3"/>
+<skill id="1078" level="6"/>
+<skill id="1085" level="3"/>
+<skill id="1086" level="2"/>
+<skill id="1087" level="3"/>
+<skill id="1182" level="3"/>
+<skill id="1189" level="3"/>
+<skill id="1191" level="3"/>
+<skill id="1204" level="2"/>
+<skill id="1229" level="11"/>
+<skill id="1240" level="3"/>
+<skill id="1242" level="3"/>
+<skill id="1243" level="6"/>
+<skill id="1251" level="2"/>
+<skill id="1252" level="3"/>
+<skill id="1253" level="3"/>
+<skill id="1255" level="2"/>
+<skill id="1259" level="4"/>
+<skill id="1268" level="4"/>
+<skill id="1284" level="3"/>
+<skill id="1303" level="2"/>
+<skill id="1304" level="3"/>
+<skill id="1308" level="3"/>
+<skill id="1309" level="3"/>
+<skill id="1310" level="4"/>
+<skill id="1331" level="10"/>
+<skill id="1332" level="10"/>
+<skill id="1352" level="1"/>
+<skill id="1353" level="1"/>
+<skill id="1354" level="1"/>
+<skill id="1355" level="1"/>
+<skill id="1356" level="1"/>
+<skill id="1357" level="1"/>
+<skill id="1362" level="1"/>
+<skill id="1363" level="1"/>
+<skill id="1388" level="3"/>
+<skill id="1389" level="3"/>
+<skill id="1390" level="3"/>
+<skill id="1391" level="3"/>
+<skill id="1392" level="3"/>
+<skill id="1393" level="3"/>
+<skill id="1397" level="3"/>
+<skill id="1413" level="1"/>
+<skill id="1418" level="1"/>
+<skill id="1461" level="1"/>
+
+    </skills>
+  </weapon>
+
+  <etcitem id="26221" name="Subclass Certificate Valor">
+    <set name="class" value="MISC"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_codex_of_giant_i00"/>
+    <set name="price" value="500000"/>
+    <set name="stackable" value="false"/>
+    <set name="type" value="OTHER"/>
+    <set name="weight" value="10"/>
+    <set name="destroyable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="tradeable" value="false"/>
+  </etcitem>
+  <etcitem id="26222" name="Subclass certificate Bravery">
+    <set name="class" value="MISC"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_codex_of_giant_i00"/>
+    <set name="price" value="500000"/>
+    <set name="stackable" value="false"/>
+    <set name="type" value="OTHER"/>
+    <set name="weight" value="10"/>
+    <set name="destroyable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="tradeable" value="false"/>
+  </etcitem>
+  <etcitem id="26223" name="Subclass certificate Honor">
+    <set name="class" value="MISC"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_codex_of_giant_i00"/>
+    <set name="price" value="500000"/>
+    <set name="stackable" value="false"/>
+    <set name="type" value="OTHER"/>
+    <set name="weight" value="10"/>
+    <set name="destroyable" value="false"/>
+    <set name="dropable" value="false"/>
+    <set name="tradeable" value="false"/>
+  </etcitem>
+    <etcitem id="26229" name="Rune AIO"> <!-- invisible -->
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+	    <set name="sellable" value="false"/>
+        <set name="weight" value="30"/>
+     </etcitem>
+  <etcitem id="26230" name="True PvP Badge">
+    <set name="class" value="OTHER"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_ketra_badge_captn_i01"/>
+    <set name="stackable" value="true"/>
+    <set name="type" value="QUEST"/>
+  </etcitem>
+  <etcitem id="26231" name="Subclass Scroll">
+    <set name="class" value="OTHER"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.etc_ketra_badge_captn_i01"/>
+    <set name="stackable" value="true"/>
+    <set name="type" value="QUEST"/>
+  </etcitem>
+  <etcitem id="26232" name="Streammers Flute">
+        <set name="class" value="OTHER"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="300"/>
+        <set name="icon" value="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+        <set name="temporal" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="30"/>
+        <skills>
+            <skill id="9230" level="1"/>
+            <skill id="9231" level="1"/>
+        </skills>
+  </etcitem>
+</list>

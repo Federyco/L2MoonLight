@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <skill id="9217" levels="1" name="Rebirth Might">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="pAtk" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9218" levels="1" name="Rebirth Empower">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="mAtk" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9219" levels="1" name="Rebirth Shield">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="pDef" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9220" levels="1" name="Rebirth Magic Barrier">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="mDef" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9221" levels="1" name="Rebirth Focus">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="rCrit" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9222" levels="1" name="Rebirth Wild Magic">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="mCritRate" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9223" levels="1" name="Rebirth Wind Walk">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="runSpd" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9224" levels="1" name="Rebirth Haste">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="pAtkSpd" val="1.05"/>
+        </for>
+    </skill>
+    <skill id="9225" levels="1" name="Rebirth Acumen">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="mAtkSpd" val="1.05"/>
+        </for>
+    </skill>
+  <skill id="9226" levels="1" name="Aura 1">
+    <table name="#mpConsume2">1</table>  
+    <table name="#abnormal_time">120</table>  
+    <table name="#magicLevel">55</table>  
+    <set name="magicType" val="MUSIC"/>  
+    <set name="icon" val="icon.skill0271"/>  
+    <set name="reuseDelay" val="10000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="hitTime" val="2500"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="523"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" time="#abnormal_time" val="0"> 
+        <mul order="0x30" stat="pAtk" val="1"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9227" levels="1" name="Aura 1">
+    <table name="#mpConsume2">1</table>  
+    <table name="#abnormal_time">120</table>  
+    <table name="#magicLevel">55</table>  
+    <set name="magicType" val="MUSIC"/>  
+    <set name="icon" val="icon.skill0271"/>  
+    <set name="reuseDelay" val="10000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="hitTime" val="2500"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="523"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" time="#abnormal_time" val="0"> 
+        <mul order="0x30" stat="pAtk" val="1"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9228" levels="1" name="Aura 1">
+    <table name="#mpConsume2">1</table>  
+    <table name="#abnormal_time">120</table>  
+    <table name="#magicLevel">55</table>  
+    <set name="magicType" val="MUSIC"/>  
+    <set name="icon" val="icon.skill0271"/>  
+    <set name="reuseDelay" val="10000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="hitTime" val="2500"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="523"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" time="#abnormal_time" val="0"> 
+        <mul order="0x30" stat="pAtk" val="1"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9230" levels="1" name="Summon Eagle"> 
+    <table name="#npcId">40042</table>  
+    <table name="#magicLevel">79</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1406"/>  
+    <set name="reuseDelay" val="3000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="hitTime" val="1500"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="25"/>  
+    <set name="mpConsume2" val="119"/>  
+    <set name="lifeTime" val="3600"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="SUMMON"/>  
+    <set name="operateType" val="OP_ACTIVE"/>
+    <!-- Summon-specific -->  
+    <set name="npcId" val="#npcId"/> 
+  </skill>  
+    <skill id="9231" levels="1" name="VIP Stats">
+        <set name="icon" val="symbol.utx-rune-xp-1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="target" val="TARGET_SELF"/>
+        <set name="skillType" val="BUFF"/>
+        <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="ItemDropMultiplier" val="1.25"/>
+            <mul order="0x40" stat="AdenaDropMultiplier" val="1.25"/>
+            <mul order="0x40" stat="SpoilDropMultiplier" val="1.25"/>
+            <mul order="0x30" stat="SpMultiplier" val="1.25"/>
+            <mul order="0x30" stat="ExpMultiplier" val="1.25"/>
+        </for>
+    </skill>
+    <!-- ************************************* INICIO BUFF CUSTOM DE 1  HORA **********************************************-->
+    <skill id="9232" levels="1" name="Clan Hall Wind Walk">
+    <table name="#effectPoint">285</table>
+    <table name="#mpConsume2">21</table>
+    <table name="#mpConsume1">6</table>  
+    <table name="#Tab-runSpd">33</table>  
+    <table name="#abnormal_lv">2</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">30</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1204"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="SpeedUp" time="#abnormal_time" val="0"> 
+        <add order="0x40" stat="runSpd" val="#Tab-runSpd"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9233" levels="1" name=" Clan Hall Death Whisper">
+    <table name="#effectPoint">532</table>
+    <table name="#mpConsume2">41</table>
+    <table name="#mpConsume1">11</table>  
+    <table name="#Tab-cAtk">1.35</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">56</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1242"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="cAtk" time="#abnormal_time" val="0"> 
+        <mul order="0x30" stat="cAtk" val="#Tab-cAtk"/> 
+      </effect> 
+    </for> 
+  </skill>    
+  <skill id="9234" levels="1" name="Clan Hall Focus">
+    <table name="#effectPoint">495</table>
+    <table name="#mpConsume2">38</table>
+    <table name="#mpConsume1">10</table>  
+    <table name="#rCrit">30</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1077"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="rCrit" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="rCrit" val="#rCrit"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9235" levels="1" name="Clan Hall Acumen">
+    <table name="#mpConsume2">600</table>  
+    <!-- s_agit_arcane_acumen -->  
+    <table name="#Tab-mAtkSpd">1.3</table>  
+    <table name="#power">3</table>  
+    <table name="#time">3600</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1085"/>  
+    <set name="magicLevel" val="1"/>  
+    <set name="castRange" val="400"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="displayLevel" val="#power"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#power" stackType="mAtkSpeedUp" time="#time" val="3600"> 
+        <mul order="0x30" stat="mAtkSpd" val="#Tab-mAtkSpd"/> 
+      </effect> 
+    </for> 
+  </skill>    
+  <skill id="9236" levels="1" name="Clan Hall Haste">
+    <table name="#effectPoint">495</table>
+    <table name="#mpConsume2">38</table>
+    <table name="#mpConsume1">10</table>  
+    <table name="#Tab-pAtkSpd">1.33</table>  
+    <table name="#abnormal_lv">2</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1086"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="pAtkSpeedUp" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/> 
+      </effect> 
+    </for> 
+  </skill>  
+   <skill id="9237" levels="1" name="Clan Hall Agility">
+    <table name="#effectPoint">495</table>
+    <table name="#mpConsume2">38</table>
+    <table name="#mpConsume1">10</table>  
+    <table name="#Tab-rEvas">4</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1087"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="rEvas" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="rEvas" val="#Tab-rEvas"/> 
+      </effect> 
+    </for> 
+  </skill>    
+   <skill id="9238" levels="1" name="Clan Hall Empower">
+    <table name="#effectPoint">495</table>
+    <table name="#mpConsume2">38</table>
+    <table name="#mpConsume1">10</table>  
+    <table name="#Tab-mAtk">1.75</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1059"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="mAtk" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="mAtk" val="#Tab-mAtk"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9239" levels="1" name="Clan Hall Might">
+    <table name="#effectPoint">379</table>
+    <table name="#mpConsume2">28</table>
+    <table name="#mpConsume1">7</table>  
+    <table name="#rate">1.15</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">40</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1068"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="pAtk" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="pAtk" val="#rate"/> 
+      </effect> 
+    </for> 
+  </skill>   
+  <skill id="9240" levels="1" name="Clan Hall Ber. Spirit">
+    <table name="#effectPoint">495</table>
+    <table name="#mpConsume2">38</table>
+    <table name="#mpConsume1">10</table>  
+    <table name="#Tab-mAtk">1.16</table>  
+    <table name="#Tab-rate">1.08</table>  
+    <table name="#pDef">0.92</table>  
+    <table name="#mDef">0.84</table>  
+    <table name="#runSpd">8</table>  
+    <table name="#rEvas">4</table>  
+    <table name="#abnormal_lv">2</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1062"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>
+    <cond msgId="113" addName="1">
+      <target targetInTheSameParty="true"/>
+    </cond>
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="berserk" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="mAtk" val="#Tab-mAtk"/>  
+        <mul order="0x30" stat="pAtk" val="#Tab-rate"/>  
+        <mul order="0x30" stat="pDef" val="#pDef"/>  
+        <mul order="0x30" stat="mDef" val="#mDef"/>  
+        <mul order="0x30" stat="mAtkSpd" val="#Tab-rate"/>  
+        <mul order="0x30" stat="pAtkSpd" val="#Tab-rate"/>  
+        <add order="0x40" stat="runSpd" val="#runSpd"/>  
+        <sub order="0x40" stat="rEvas" val="#rEvas"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9241" levels="1" name="Clan Hall Shield">
+    <table name="#mpConsume2">100</table>  
+    <!-- s_agit_shield -->  
+    <table name="#Tab-pDef">1.15</table>  
+    <table name="#power">3</table>  
+    <table name="#time">3600</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1040"/>  
+    <set name="magicLevel" val="1"/>  
+    <set name="castRange" val="400"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="displayLevel" val="#power"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#power" stackType="pDef" time="#time" val="3600"> 
+        <mul order="0x30" stat="pDef" val="#Tab-pDef"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9242" levels="1" name="Clan Hall Vampiric Rage">
+    <table name="#mpConsume2">53</table>
+    <table name="#mpConsume1">14</table>    
+    <table name="#Tab-absorbDam">9</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">72</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1268"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#Tab-absorbDam" stackType="vampRage" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="absorbDam" val="#Tab-absorbDam"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9243" levels="1" name="Clan Hall Mental Shield">
+    <table name="#effectPoint">532</table>
+    <table name="#mpConsume2">41</table>
+    <table name="#mpConsume1">11</table>  
+    <table name="#mentalResist">50</table>  
+    <table name="#abnormal_lv">4</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">56</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1035"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="mental" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="rootResist" val="#mentalResist"/>  
+        <add order="0x40" stat="sleepResist" val="#mentalResist"/>  
+        <add order="0x40" stat="mentalResist" val="#mentalResist"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9244" levels="1" name="Clan Hall Magic Barrier">
+    <table name="#effectPoint">495</table>
+    <table name="#mpConsume2">38</table>
+    <table name="#mpConsume1">10</table>  
+    <table name="#Tab-mDef">1.3</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1036"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="MagicDefUp" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="mDef" val="#Tab-mDef"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9245" levels="1" name="Clan Hall Blessed Body">
+    <table name="#mpConsume2">300</table>  
+    <!-- s_agit_bless_the_body -->  
+    <table name="#Tab-maxHp">1.35</table>  
+    <table name="#power">6</table>  
+    <table name="#time">3600</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1045"/>  
+    <set name="magicLevel" val="1"/>  
+    <set name="castRange" val="400"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="displayLevel" val="#power"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#power" stackType="hp_up" time="#time" val="3600"> 
+        <mul order="0x30" stat="maxHp" val="#Tab-maxHp"/> 
+      </effect> 
+    </for> 
+  </skill>  
+  <skill id="9246" levels="1" name="Clan Hall Blessed Soul">
+    <table name="#mpConsume2">300</table>  
+    <!-- s_agit_bless_the_soul -->  
+    <table name="#Tab-maxMp">1.35</table>  
+    <table name="#power">6</table>  
+    <table name="#time">3600</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1048"/>  
+    <set name="magicLevel" val="1"/>  
+    <set name="castRange" val="400"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="displayLevel" val="#power"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#power" stackType="mp_up" time="#time" val="3600"> 
+        <mul order="0x30" stat="maxMp" val="#Tab-maxMp"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9247" levels="1" name="Clan Hall Clarity">
+    <table name="#mpConsume2">55</table>
+    <table name="#mpConsume1">14</table>  
+    <table name="#mpConsumePhysical">0.8</table>  
+    <table name="#mpConsum">0.9</table>  
+    <table name="#mpDanceConsume">0.8</table>  
+    <table name="#SpiritOre">3</table>  
+    <table name="#effect">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">74</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1397"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="itemConsumeCount" val="#SpiritOre"/>  
+    <set name="itemConsumeId" val="3031"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#effect" stackType="clarity" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="mpConsum" val="#mpConsum"/>  
+        <mul order="0x30" stat="mpConsumePhysical" val="#mpConsumePhysical"/>  
+        <mul order="0x30" stat="mpDanceConsume" val="#mpDanceConsume"/> 
+      </effect> 
+    </for> 
+  </skill>
+   <skill id="9248" levels="1" name="Clan Hall Wild Magic">
+    <table name="#mpConsume2">52</table>
+    <table name="#mpConsume1">13</table>   
+    <table name="#mCrit">4</table>
+    <table name="#stack">2</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">70</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1303"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#stack" stackType="magicCritUp" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="mCritRate" val="#mCrit"/>
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9249" levels="1" name="Clan Hall Guidance">
+    <table name="#effectPoint">532</table>
+    <table name="#mpConsume2">41</table>
+    <table name="#mpConsume1">11</table>  
+    <table name="#Tab-accCombat">4</table>  
+    <table name="#stackOrder">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">56</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1240"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#stackOrder" stackType="accuracyUp" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="accCombat" val="#Tab-accCombat"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9250" levels="1" name="Clan Hall Bss. Shield">
+    <table name="#effectPoint">635</table>
+    <table name="#mpConsume2">52</table>
+    <table name="#mpConsume1">13</table>
+    <table name="#Tab-rShld">1.80</table>
+    <table name="#abnormal_lv">6</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">70</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1243"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="shieldProbUp" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="rShld" val="#Tab-rShld"/> 
+      </effect> 
+    </for> 
+  </skill>
+   <skill id="9251" levels="1" name="clan Hall Adv. Block">
+    <table name="#mpConsume2">53</table>
+    <table name="#mpConsume1">14</table>  
+    <table name="#Tab-sDef">2</table>
+    <table name="#stack">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">72</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1304"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#stack" stackType="sDef" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="sDef" val="#Tab-sDef"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9252" levels="1" name="Clan Hall Rest. Shock">
+    <table name="#mpConsume2">52</table>
+    <table name="#mpConsume1">13</table>   
+    <table name="#res">40</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">72</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1259"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#res" stackType="shockRcpt" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="stunResist" val="#res"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9253" levels="1" name="Clan Hall Regeneration">
+    <table name="#effectPoint">532</table>
+    <table name="#mpConsume2">41</table>
+    <table name="#mpConsume1">11</table>  
+    <table name="#rate">1.2</table>  
+    <table name="#abnormal_lv">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">56</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1044"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="effectPoint" val="#effectPoint"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="hpregen" time="#abnormal_time" val="3600"> 
+        <mul order="0x30" stat="regHp" val="#rate"/> 
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9254" levels="1" name="Clan Hall Dec. Weight">
+    <table name="#mpConsume2">19</table>
+    <table name="#mpConsume1">5</table>  
+    <table name="#Weight">9000</table>  
+    <table name="#power">3</table>  
+    <table name="#abnormal_time">3600</table>  
+    <table name="#magicLevel">52</table>  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1257"/>  
+    <set name="reuseDelay" val="6000"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="#mpConsume1"/>  
+    <set name="mpConsume2" val="#mpConsume2"/>  
+    <set name="target" val="TARGET_ONE"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" stackOrder="#power" stackType="weight" time="#abnormal_time" val="3600"> 
+        <add order="0x40" stat="maxNoPenaltyLoad" val="#Weight"/> 
+      </effect> 
+    </for> 
+  </skill> 
+  <!-- ************************************* FIN BUFF CUSTOM DE 1  HORA **********************************************-->
+  <skill id="9255" levels="1" name="Vote Reward">
+    <table name="#pDef">1.2</table>  
+    <table name="#mDef">1.2</table> 
+    <table name="#runSpd">1.2</table>
+    <table name="#Tab-mAtkSpd">1.2</table>
+    <table name="#Tab-pAtkSpd">1.2</table>       
+    <set name="magicLevel" val="1"/> 
+    <set name="target" val="TARGET_SELF"/> 
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>   
+    <for>   
+        <mul order="0x20" stat="pDef" val="#pDef"/>  
+        <mul order="0x20" stat="mDef" val="#mDef"/>    
+        <mul order="0x20" stat="runSpd" val="#runSpd"/>
+        <mul order="0x20" stat="mAtkSpd" val="#Tab-mAtkSpd"/> 
+        <mul order="0x20" stat="pAtkSpd" val="#Tab-pAtkSpd"/> 
+    </for> 
+  </skill>
+  <skill id="9256" levels="1" name="Dance of the Warrior Scroll">
+    <set name="magicType" val="MUSIC"/>  
+    <set name="icon" val="icon.etc_scroll_white_i00"/>   
+    <set name="magicLevel" val="1"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>       
+    <set name="itemConsumeId" val="9338"/>  
+    <set name="itemConsumeCount" val="1"/>  
+    <set name="isHandler" val="true"/> 
+    <set name="target" val="TARGET_SELF"/>   
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" time="3600" val="0"> 
+        <mul order="0x30" stat="pAtk" val="1.12"/> 
+      </effect> 
+    </for> 
+  </skill>
+    <skill id="9257" levels="1" name="Dance of Fire Scroll">
+    <set name="magicType" val="MUSIC"/>  
+    <set name="icon" val="icon.etc_scroll_white_i00"/>   
+    <set name="magicLevel" val="1"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>       
+    <set name="itemConsumeId" val="9338"/>  
+    <set name="itemConsumeCount" val="0"/>  
+    <set name="isHandler" val="true"/> 
+    <set name="target" val="TARGET_SELF"/>   
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" time="3600" val="0"> 
+        <mul order="0x30" stat="cAtk" val="1.35"/>  
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9258" levels="1" name="Dance of Fury Scroll">
+    <set name="magicType" val="MUSIC"/>  
+    <set name="icon" val="icon.etc_scroll_white_i00"/>   
+    <set name="magicLevel" val="1"/>  
+    <set name="hitTime" val="4000"/>  
+    <set name="hitCancelTime" val="500"/>       
+    <set name="itemConsumeId" val="9338"/>  
+    <set name="itemConsumeCount" val="0"/>  
+    <set name="isHandler" val="true"/> 
+    <set name="target" val="TARGET_SELF"/>   
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_ACTIVE"/>  
+    <for> 
+      <effect count="1" name="Buff" time="3600" val="0"> 
+        <mul order="0x30" stat="pAtkSpd" val="1.15"/>  
+      </effect> 
+    </for> 
+  </skill>
+  <skill id="9259" levels="1" name="Boost Mana AIO"> 
+    <table name="#mp">5000</table>  
+    <table name="#magicLevel">72</table>  
+    <set name="icon" val="icon.skill0213"/>  
+    <set name="magicLevel" val="#magicLevel"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for> 
+      <add order="0x40" stat="maxMp" val="#mp"/> 
+    </for>  
+    </skill>
+    <skill id="9260" levels="1" name="AIO Recharge">  
+    <set name="magicType" val="MAGIC"/>  
+    <set name="icon" val="icon.skill1013"/>  
+    <set name="reuseDelay" val="10"/>  
+    <set name="power" val="5000"/>  
+    <set name="magicLevel" val="1"/>  
+    <set name="castRange" val="400"/>  
+    <set name="hitTime" val="50"/>  
+    <set name="hitCancelTime" val="500"/>  
+    <set name="mpConsume1" val="0"/>  
+    <set name="mpConsume2" val="0"/>  
+    <set name="effectPoint" val="5000"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="MANAHEAL"/>  
+    <set name="operateType" val="OP_ACTIVE"/> 
+  </skill>
+  <skill id="9261" levels="1" name="Drop Bonus">
+    <set name="icon" val="symbol.utx-rune-xp-1"/>
+    <set name="magicLevel" val="1"/>
+    <set name="target" val="TARGET_SELF"/>
+    <set name="skillType" val="BUFF"/>
+    <set name="operateType" val="OP_PASSIVE"/>
+        <for>
+            <mul order="0x40" stat="ItemDropMultiplier" val="1.25"/>
+            <mul order="0x40" stat="AdenaDropMultiplier" val="1.25"/>
+            <mul order="0x40" stat="SpoilDropMultiplier" val="1.25"/>
+        </for>
+    </skill>
+  <skill id="9262" levels="1" name="AIO Acumen">
+    <table name="#Tab-runSpd">2 3 3 4.5</table>  
+    <table name="#Tab-mAtkSpd">2 3 3 4.5</table>  
+    <set name="icon" val="icon.skill1085"/>  
+    <set name="magicLevel" val="1"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for> 
+        <effect count="1" name="Buff"  val="0"> 
+            <mul order="0x30" stat="runSpd" val="#Tab-runSpd"/>  
+            <mul order="0x30" stat="mAtkSpd" val="#Tab-mAtkSpd"/>  
+        </effect>  
+    </for> 
+  </skill>  
+</list>

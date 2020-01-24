@@ -1,0 +1,20 @@
+<!ELEMENT list (player)*>
+<!ATTLIST list
+        enabled CDATA #REQUIRED>
+<!ELEMENT player (targetPlayer|equipedWith|mul|add)*>
+<!ATTLIST player
+        classId CDATA #REQUIRED>
+<!ELEMENT targetPlayer (mul|add)*>
+<!ATTLIST targetPlayer
+        classId CDATA #REQUIRED>
+<!ELEMENT mul (#PCDATA)>
+<!ATTLIST mul
+        stat CDATA #REQUIRED
+        val CDATA #REQUIRED>
+<!ELEMENT add (#PCDATA)>
+<!ATTLIST add
+        stat CDATA #REQUIRED
+        val CDATA #REQUIRED>
+<!ELEMENT equipedWith (mul|add)*>
+<!ATTLIST equipedWith
+        itemId CDATA #REQUIRED>

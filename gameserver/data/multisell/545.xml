@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- adventure guildsman territory manager - armors shop -->
+<list>
+<config showall="true" notax="true" keepenchanted="false" />
+	<!-- Sealed Dark Crystal breastplate -->
+	<item id="11">
+		<ingredient id="8160" count="74"/>
+		<ingredient id="8163" count="19"/>
+		<ingredient id="8166" count="49"/>
+		<ingredient id="8169" count="31"/>
+		<ingredient id="8172" count="12"/>
+		<production id="5287" count="1"/>
+	</item>
+	<!-- Sealed Dark Crystal Gaiters -->
+	<item id="12">
+		<ingredient id="8160" count="46"/>
+		<ingredient id="8163" count="12"/>
+		<ingredient id="8166" count="31"/>
+		<ingredient id="8169" count="19"/>
+		<ingredient id="8172" count="8"/>
+		<production id="5288" count="1"/>
+	</item>
+	<!-- Sealed Tallum Plate Armor -->
+	<item id="13">
+		<ingredient id="8160" count="108"/>
+		<ingredient id="8163" count="27"/>
+		<ingredient id="8166" count="72"/>
+		<ingredient id="8169" count="45"/>
+		<ingredient id="8172" count="18"/>
+		<production id="5293" count="1"/>
+	</item>
+	<!-- Sealed Tallum Leather Armor -->
+	<item id="14">
+		<ingredient id="8160" count="81"/>
+		<ingredient id="8163" count="20"/>
+		<ingredient id="8166" count="54"/>
+		<ingredient id="8169" count="34"/>
+		<ingredient id="8172" count="14"/>
+		<production id="5301" count="1"/>
+	</item>
+	<!-- Sealed Tallum Tunic -->
+	<item id="15">
+		<ingredient id="8160" count="56"/>
+		<ingredient id="8163" count="14"/>
+		<ingredient id="8166" count="37"/>
+		<ingredient id="8169" count="23"/>
+		<ingredient id="8172" count="9"/>
+		<production id="5304" count="1"/>
+	</item>
+	<!-- Sealed Tallum Stockings -->
+	<item id="16">
+		<ingredient id="8160" count="35"/>
+		<ingredient id="8163" count="9"/>
+		<ingredient id="8166" count="23"/>
+		<ingredient id="8169" count="14"/>
+		<ingredient id="8172" count="6"/>
+		<production id="5305" count="1"/>
+	</item>
+	<!-- Sealed Dark Crystal Leather Armor -->
+	<item id="17">
+		<ingredient id="8160" count="56"/>
+		<ingredient id="8163" count="14"/>
+		<ingredient id="8166" count="37"/>
+		<ingredient id="8169" count="23"/>
+		<ingredient id="8172" count="9"/>
+		<production id="5297" count="1"/>
+	</item>
+	<!-- Sealed Dark Crystal Leggings -->
+	<item id="18">
+		<ingredient id="8160" count="35"/>
+		<ingredient id="8163" count="9"/>
+		<ingredient id="8166" count="23"/>
+		<ingredient id="8169" count="14"/>
+		<ingredient id="8172" count="6"/>
+		<production id="5298" count="1"/>
+	</item>
+	<!-- Sealed Dark Crystal Robe -->
+	<item id="18">
+		<ingredient id="8160" count="81"/>
+		<ingredient id="8163" count="20"/>
+		<ingredient id="8166" count="54"/>
+		<ingredient id="8169" count="34"/>
+		<ingredient id="8172" count="14"/>
+		<production id="5308" count="1"/>
+	</item>
+</list>

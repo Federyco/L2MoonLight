@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+  <!-- ******************************* INICIO ANILLOS TOI ********************************** -->
+  <!-- Ring Of Insolence I-->
+  <armor id="9500" name="Ring Of Insolence">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <armor id="9501" name="Ring Of Insolence I">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9301" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9502" name="Ring Of Insolence II">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9302" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9503" name="Ring Of Insolence III">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9303" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9504" name="Ring Of Insolence IV">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9304" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9505" name="Ring Of Insolence V">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9305" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9506" name="Ring Of Insolence VI">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9306" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9507" name="Ring Of Insolence VII">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9307" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9508" name="Ring Of Insolence VIII">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9308" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9509" name="Ring Of Insolence IX">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9309" level="1"/>
+    </skills>
+    <for>
+     <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9510" name="Ring Of Insolence X">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9310" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9511" name="Ring Of Insolence XI">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9311" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9512" name="Ring Of Insolence XII">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9312" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- Ring Of Insolence I-->
+  <armor id="9513" name="Ring Of Insolence XIII">
+    <set name="crystal_type" value="B"/>
+    <set name="icon" value="icon.accessary_ring_of_summons_i00"/>
+    <set name="type" value="NONE"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="enchantable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="crystal_count" value="123"/>
+    <set name="weight" value="10"/>
+    <equip>
+      <slot id="RIGHT_FINGER"/>
+      <slot id="LEFT_FINGER"/>
+    </equip>
+    <skills>
+      <skill id="9313" level="1"/>
+    </skills>
+    <for>
+      <add stat="mDef" order="0x10" value="71"/>
+      <add stat="maxMp" order="0x40" value="31"/>
+      <enchant stat="mDef" order="0x0C" value="0"/>
+    </for>
+  </armor>
+  <!-- ******************************* FIN ANILLOS TOI ********************************** -->
+  <!-- ******************************* INICIO GEMAS TOI ********************************** -->
+  <!-- Gem piso I-->
+  <etcitem id="9514" name="Gem Of Insolence 1st Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso II-->
+  <etcitem id="9515" name="Gem Of Insolence 2nd Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso III-->
+  <etcitem id="9516" name="Gem Of Insolence 3rd Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso IV-->
+  <etcitem id="9517" name="Gem Of Insolence 4th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso V-->
+  <etcitem id="9518" name="Gem Of Insolence 5th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso VI-->
+  <etcitem id="9519" name="Gem Of Insolence 6th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso VII-->
+  <etcitem id="9520" name="Gem Of Insolence 7th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso VIII-->
+  <etcitem id="9521" name="Gem Of Insolence 8th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso IX-->
+  <etcitem id="9522" name="Gem Of Insolence 9th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso X-->
+  <etcitem id="9523" name="Gem Of Insolence 10th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso XI-->
+  <etcitem id="9524" name="Gem Of Insolence 11th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso XII-->
+  <etcitem id="9525" name="Gem Of Insolence 12th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- Gem piso XIII-->
+  <etcitem id="9526" name="Gem Of Insolence 13th Floor">
+    <!-- [reinforcing_plate] -->
+    <set name="class" value="MATHERIALS"/>
+    <set name="crystal_type" value="NONE"/>
+    <set name="icon" value="icon.sealed_bluelycan_neckalce_gem"/>
+    <set name="price" value="15000"/>
+    <set name="stackable" value="true"/>
+    <set name="tradeable" value="true"/>
+    <set name="storeable" value="true"/>
+    <set name="destroyable" value="false"/>    
+    <set name="dropable" value="false"/>
+    <set name="sellable" value="false"/>   
+    <set name="crystallizable" value="true"/>
+    <set name="type" value="MATERIAL"/>
+    <set name="weight" value="2"/>
+  </etcitem>
+  <!-- ******************************* FIN GEMAS TOI ********************************** -->
+</list>

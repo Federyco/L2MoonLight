@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "stats_custom_mod.dtd">
+<list enabled="false"> <!--Turning on the custom stat setting -->
+    <!-- Setup example Shillien Templar class-->
+    <player classId="106"> <!-- Shillien Templar -->
+    <!--
+    Class id 106(Shillien Templar) when attacking class id 108(Ghost Hunter) gets bonuses 10% of mAtk and +20 Patk
+    -->
+        <targetPlayer classId="108">
+            <mul stat="mAtk" val="1.1"/>
+            <add stat="pAtk" val="20"/>
+        </targetPlayer>
+
+        <!-- when equipped Dark Crystal Breastplate, Shillien Templar gets extra bonus 20% of mDef and +30 pDef-->
+        <equipedWith itemId="365"> <!-- Dark Crystal Breastplate -->
+            <mul stat="mDef" val="1.2"/>
+            <add stat="pDef" val="30"/>
+        </equipedWith>
+
+        <!-- a bonus for Shillien Templar gets immediately and without any conditions, all the above bonuses are also added to the current-->
+        <mul stat="mDef" val="1.3"/>
+        <add stat="mAtkSpd" val="30"/>
+    </player>
+</list>

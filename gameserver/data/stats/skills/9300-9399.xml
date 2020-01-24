@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<!-- ***************************** INICIO SKILES DE LOS RINGS DE TOI ****************************** -->
+	<!-- Aura lvl 1 -->
+	<skill id="9301" levels="1" name="Insolence Aura I">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="5"/>
+      <add order="0x40" stat="rootResist" val="5"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9302" levels="1" name="Insolence Aura II">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="5"/>
+      <add order="0x40" stat="rootResist" val="5"/>
+      <add order="0x40" stat="mentalResist" val="5"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9303" levels="1" name="Insolence Aura III">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="5"/>
+      <add order="0x40" stat="rootResist" val="5"/>
+      <add order="0x40" stat="mentalResist" val="5"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9304" levels="1" name="Insolence Aura IV">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="5"/>
+      <add order="0x40" stat="rootResist" val="5"/>
+      <add order="0x40" stat="bleedResist" val="5"/>
+      <add order="0x40" stat="mentalResist" val="5"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9305" levels="1" name="Insolence Aura V">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="5"/>
+      <add order="0x40" stat="rootResist" val="5"/>
+      <add order="0x40" stat="bleedResist" val="5"/>
+      <add order="0x40" stat="stunResist" val="5"/>
+      <add order="0x40" stat="mentalResist" val="5"/>
+      <add order="0x30" stat="pAtkSpd" val="1.00"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.00"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9306" levels="1" name="Insolence Aura VI">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+       <add order="0x40" stat="poisonResist" val="6"/>
+      <add order="0x40" stat="rootResist" val="6"/>
+      <add order="0x40" stat="bleedResist" val="6"/>
+      <add order="0x40" stat="stunResist" val="6"/>
+      <add order="0x40" stat="mentalResist" val="6"/>
+      <add order="0x30" stat="pAtkSpd" val="1.00"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.00"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9307" levels="1" name="Insolence Aura VII">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+       <add order="0x40" stat="poisonResist" val="7"/>
+      <add order="0x40" stat="rootResist" val="7"/>
+      <add order="0x40" stat="bleedResist" val="7"/>
+      <add order="0x40" stat="stunResist" val="7"/>
+      <add order="0x40" stat="mentalResist" val="7"/>
+      <add order="0x30" stat="pAtkSpd" val="1.00"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.00"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9308" levels="1" name="Insolence Aura VIII">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+       <add order="0x40" stat="poisonResist" val="8"/>
+      <add order="0x40" stat="rootResist" val="8"/>
+      <add order="0x40" stat="bleedResist" val="8"/>
+      <add order="0x40" stat="stunResist" val="8"/>
+      <add order="0x40" stat="mentalResist" val="8"/>
+      <add order="0x30" stat="pAtkSpd" val="1.00"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.00"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9309" levels="1" name="Insolence Aura IX">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+       <add order="0x40" stat="poisonResist" val="10"/>
+      <add order="0x40" stat="rootResist" val="10"/>
+      <add order="0x40" stat="bleedResist" val="10"/>
+      <add order="0x40" stat="stunResist" val="10"/>
+      <add order="0x40" stat="mentalResist" val="10"/>
+      <add order="0x30" stat="pAtkSpd" val="1.00"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.00"/>
+      <add order="0x30" stat="mReuse" val="0.50"/>
+      <add order="0x30" stat="pReuse" val="0.50"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9310" levels="1" name="Insolence Aura X">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="15"/>
+      <add order="0x40" stat="rootResist" val="15"/>
+      <add order="0x40" stat="bleedResist" val="15"/>
+      <add order="0x40" stat="stunResist" val="15"/>
+      <add order="0x40" stat="mentalResist" val="15"/>
+      <add order="0x40" stat="accCombat" val="3"/>
+      <add order="0x30" stat="cAtk" val="1.20"/>
+      <add order="0x30" stat="pAtkSpd" val="1.00"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.00"/>
+      <add order="0x30" stat="pAtk" val="1.00"/>
+      <add order="0x30" stat="mAtk" val="1.00"/>
+      <add order="0x30" stat="mReuse" val="0.50"/>
+      <add order="0x30" stat="pReuse" val="0.50"/>
+      <add order="0x40" stat="reflectDam" val="10"/>
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9311" levels="1" name="Insolence Aura XI">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="20"/>
+      <add order="0x40" stat="rootResist" val="20"/>
+      <add order="0x40" stat="bleedResist" val="20"/>
+      <add order="0x40" stat="stunResist" val="20"/>
+      <add order="0x40" stat="mentalResist" val="20"/>
+      <add order="0x40" stat="accCombat" val="3"/>
+      <add order="0x30" stat="cAtk" val="1.30"/>
+      <add order="0x30" stat="pAtkSpd" val="1.10"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.10"/>
+      <add order="0x30" stat="pAtk" val="1.10"/>
+      <add order="0x30" stat="mAtk" val="1.10"/>
+      <add order="0x30" stat="mReuse" val="0.60"/>
+      <add order="0x30" stat="pReuse" val="0.60"/>
+      <add order="0x40" stat="reflectDam" val="15"/> 
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9312" levels="1" name="Insolence Aura XII">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="25"/>
+      <add order="0x40" stat="rootResist" val="25"/>
+      <add order="0x40" stat="bleedResist" val="25"/>
+      <add order="0x40" stat="stunResist" val="25"/>
+      <add order="0x40" stat="mentalResist" val="25"/>
+      <add order="0x40" stat="accCombat" val="4"/>
+      <add order="0x30" stat="cAtk" val="1.40"/>
+      <add order="0x30" stat="pAtkSpd" val="1.30"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.30"/>
+      <add order="0x30" stat="pAtk" val="1.30"/>
+      <add order="0x30" stat="mAtk" val="1.30"/>
+      <add order="0x30" stat="mReuse" val="0.70"/>
+      <add order="0x30" stat="pReuse" val="0.70"/>
+      <add order="0x40" stat="reflectDam" val="20"/> 
+    </for> 
+  </skill>
+  <!-- Aura lvl 1 -->
+	<skill id="9313" levels="1" name="Insolence Aura XIII">
+    <set name="icon" val="icon.accessary_ring_of_summons_i00"/>  
+    <set name="magicLevel" val="75"/>  
+    <set name="target" val="TARGET_SELF"/>  
+    <set name="skillType" val="BUFF"/>  
+    <set name="operateType" val="OP_PASSIVE"/>  
+    <for>
+      <add order="0x40" stat="poisonResist" val="30"/>
+      <add order="0x40" stat="rootResist" val="30"/>
+      <add order="0x40" stat="bleedResist" val="30"/>
+      <add order="0x40" stat="stunResist" val="30"/>
+      <add order="0x40" stat="mentalResist" val="30"/>
+      <add order="0x40" stat="accCombat" val="5"/>
+      <add order="0x30" stat="cAtk" val="1.60"/>
+      <add order="0x30" stat="pAtkSpd" val="1.50"/>  
+      <add order="0x30" stat="mAtkSpd" val="1.50"/>
+      <add order="0x30" stat="pAtk" val="1.50"/>
+      <add order="0x30" stat="mAtk" val="1.50"/>
+      <add order="0x30" stat="mReuse" val="0.90"/>
+      <add order="0x30" stat="pReuse" val="0.90"/>
+      <add order="0x40" stat="reflectDam" val="30"/>  
+    </for> 
+  </skill>
+  <!-- ***************************** FIN SKILES DE LOS RINGS DE TOI ****************************** -->    
+</list>
